@@ -1,0 +1,63 @@
+header {
+  background-color: black;
+  color: white;
+  padding: 2%;
+}
+
+h1 {
+  font: bold 2em sans-serif;
+  color: white;
+}
+
+.login {
+  background-color: limegreen;
+  color: white;
+  float: right;
+}
+
+nav {
+  background-color: navy;
+  color: white;
+  padding: 2%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+li.menu {
+  padding: 2px;
+  margin: auto;
+}
+
+.hero {
+  background: #fff url("../images/1.jpg") no-repeat center;
+  background-size: cover;
+  height: 65vh;
+  padding: 2%;
+}
+
+p {
+  color: white;
+  background-color: grey;
+  padding: 1%;
+  font-family: sans-serif;
+}
+
+.featured{
+  display: flex;
+  flex-direction: row;
+}
+
+.place{
+  width: 30%;
+  height: 200px;
+  margin: auto;
+}
+
+.place img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
